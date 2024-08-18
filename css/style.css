@@ -15,10 +15,13 @@
 
 /* Globales */
 
-body {
-    background-color: var(--Cbody);
+* {
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-color: var(--Cbody);
 }
 
 a {
@@ -34,6 +37,7 @@ a {
     padding: 4px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
@@ -49,7 +53,7 @@ a {
     color: #FF8F00;
 }
 
-h1 {
+span {
     color: var(--Cblanco);
     font-family: var(--Fnav);
     text-transform: uppercase;
@@ -70,10 +74,6 @@ a {
     background-color: rgba(0, 0, 0, 0);
     background-size: cover;
     height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
 }
 
 .bienvenida-contenido {
@@ -84,7 +84,9 @@ a {
     font-size: 55px;
     color: white;
     font-family: var(--Fcursiva);
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* Desplazamiento x, desplazamiento y, radio de desenfoque, color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
