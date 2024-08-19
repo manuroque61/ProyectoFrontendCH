@@ -1,0 +1,53 @@
+/* Variables */
+:root {
+    /* colores */
+    --Cprimario: rgb(128, 61, 59);
+    --Cbody: #EEEEEE;
+    --Coscuro: #000;
+    --Cblanco: 	#FFFFFF;
+
+    /* fuentes */
+    --Fnav: "Roboto Condensed", sans-serif;
+    --Fbody: "Zain", sans-serif;
+    --Fcursiva: "Dancing Script", cursive;
+
+}
+
+/* Globales */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--Cbody);
+    font-size: 16px; /* 1rem = 10px */
+}
+
+
+/* Main */
+main {
+    text-align: center;
+    padding: 1rem 4rem;
+}
+
+main h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+main .card {
+    height: 100%;
+    width: 40rem;
+}
+
+form {
+    width: 90%;
+    height: 100%;
+}
+
