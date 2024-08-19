@@ -45,10 +45,6 @@ main .p-1 {
 }
 
 
-main .card {
-    width: 100%;
-}
-
 .card h5{
     font-size: 2rem;
 }
