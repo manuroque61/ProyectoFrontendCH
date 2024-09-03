@@ -1,0 +1,8 @@
+@use "../abstracts/variables" as v;
+
+/* Nav */
+.navbar {
+    color: v.$Cblanco;
+    font-family: v.$Fnav;
+    font-size: 1.8rem;
+}

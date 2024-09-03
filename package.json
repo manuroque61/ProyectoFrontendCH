@@ -1,0 +1,33 @@
+{
+  "name": "proyectofrontendch",
+  "version": "1.0.0",
+  "description": "Proyecto Web para CoderHouse",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "global": "gulp global",
+    "contacto": "gulp contacto",
+    "index": "gulp index",
+    "nosotros": "gulp nosotros",
+    "servicios": "gulp servicios",
+    "trabajos": "gulp trabajos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuroque61/ProyectoFrontendCH.git"
+  },
+  "keywords": [
+    "proyectoweb"
+  ],
+  "author": "Manuel Roque",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuroque61/ProyectoFrontendCH/issues"
+  },
+  "homepage": "https://github.com/manuroque61/ProyectoFrontendCH#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.8"
+  }
+}

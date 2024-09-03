@@ -1,0 +1,25 @@
+@forward "../global.scss";
+/* Main */
+
+main {
+    text-align: center;
+    padding: 1rem;
+}
+
+main h2 {
+    font-size: 3rem;
+}
+
+.accordion {
+    padding:1rem 6rem;
+    font-size: 2rem;
+
+    button{
+        font-size: 2.3rem;
+    }
+
+    img{
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+}

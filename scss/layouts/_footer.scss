@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as v;
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: v.$Cblanco;
+    padding: 0.5rem;
+}
+
+.d-flex {
+    gap: 2rem;
+}
+
+.icon-footer {
+    font-size: 3rem;
+    color: v.$Cblanco;
+}

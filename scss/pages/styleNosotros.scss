@@ -1,0 +1,23 @@
+@forward "../global.scss";
+@use "../abstracts/variables" as v;
+
+/* Main */
+.main-nosotros {
+    text-align: center;
+    font-family: v.$Fbody;
+    padding: 1rem 8rem;
+}
+
+main h2  {
+    font-size: 3.5rem;
+}
+.img-nos {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main p {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
