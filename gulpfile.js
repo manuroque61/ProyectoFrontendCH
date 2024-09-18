@@ -1,4 +1,4 @@
-import {src, dest, watch} from 'gulp'
+import {src, dest, watch, series} from 'gulp'
 import * as dartsass from 'sass'
 import gulpSass from 'gulp-sass'
 
@@ -9,23 +9,18 @@ export function global (done) {
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('css'))
 
-    done ()
+
+        done()
 }
 
-export function contacto (done) {
-    src('scss/pages/styleContacto.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(dest('css'))
-
-    done ()
-}
+ 
 
 export function index (done) {
     src('scss/pages/styleIndex.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('css'))
 
-    done ()
+        done()
 }
 
 export function nosotros (done) {
@@ -33,7 +28,8 @@ export function nosotros (done) {
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('css'))
 
-    done ()
+
+        done()
 }
 
 export function servicios (done) {
@@ -41,7 +37,8 @@ export function servicios (done) {
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('css'))
 
-    done ()
+
+        done()
 }
 
 export function trabajos (done) {
@@ -49,8 +46,13 @@ export function trabajos (done) {
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('css'))
 
-    done ()
+
+        done()
 }
+
+
+export const css = series(global, index, nosotros, servicios, trabajos);
+
 
 
 

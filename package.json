@@ -10,7 +10,8 @@
     "index": "gulp index",
     "nosotros": "gulp nosotros",
     "servicios": "gulp servicios",
-    "trabajos": "gulp trabajos"
+    "trabajos": "gulp trabajos",
+    "dev": "gulp dev"
   },
   "repository": {
     "type": "git",
