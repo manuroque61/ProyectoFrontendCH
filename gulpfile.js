@@ -13,7 +13,6 @@ export function global (done) {
         done()
 }
 
- 
 
 export function index (done) {
     src('scss/pages/styleIndex.scss')
@@ -50,10 +49,16 @@ export function trabajos (done) {
         done()
 }
 
+export function contacto (done) {
+    src('scss/pages/styleContacto.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(dest('css'))
 
-export const css = series(global, index, nosotros, servicios, trabajos);
 
+        done()
+}
 
+export const css = series(global, index, nosotros, servicios, trabajos, contacto);
 
 
 export function dev(){
