@@ -352,6 +352,10 @@ footer {
   font-size: 1.8rem;
 }
 
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
 /* Main */
 .main-nosotros {
   text-align: center;
@@ -364,7 +368,7 @@ main h2 {
 }
 
 .img-nos {
-  width: 100%;
+  width: 60%;
   height: 100%;
   object-fit: contain;
 }

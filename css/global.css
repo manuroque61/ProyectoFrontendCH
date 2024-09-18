@@ -351,3 +351,7 @@ footer {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.8rem;
 }
+
+.nav-item:hover {
+  transform: scale(1.1);
+}

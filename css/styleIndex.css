@@ -352,6 +352,10 @@ footer {
   font-size: 1.8rem;
 }
 
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
 /*main*/
 .main-index {
   display: flex;
@@ -395,4 +399,7 @@ footer {
 }
 .card a {
   font-size: 1.5rem;
+}
+.card a:hover {
+  transform: scale(1.1);
 }
