@@ -64,3 +64,8 @@ export const css = series(global, index, nosotros, servicios, trabajos, contacto
 export function dev(){
     watch('scss/**/*.scss', css)
 }
+
+
+export function build(done) {
+    done();
+}
